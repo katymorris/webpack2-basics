@@ -1,0 +1,25 @@
+{
+  "name": "webpack2-basics",
+  "version": "1.0.0",
+  "description": "This repository holds the source code of my Webpack 2 Basics Series on YouTube. Make sure to watch the Videos on YouTube to understand how to use that code.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "webpack-dev-server --entry ./src/js/app.js --output-filename ./dist/bundle.js",
+    "build:prod": "webpack src/js/app.js dist/bundle.js -p"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/katymorris/webpack2-basics.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/katymorris/webpack2-basics/issues"
+  },
+  "homepage": "https://github.com/katymorris/webpack2-basics#readme",
+  "devDependencies": {
+    "webpack": "^2.6.1",
+    "webpack-dev-server": "^2.4.5"
+  }
+}
